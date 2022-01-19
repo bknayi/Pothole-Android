@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <TableRow
+        android:background="#EEEEEE">>
+        <TextView
+            android:text="Status"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Week"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Month"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="Year"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Complain"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/twoone"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/twotwo"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/twothe"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow android:background="#EEEEEE">
+        <TextView
+            android:text="Resolved"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/theone"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/thetwo"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/thethe"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:text="Pending"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/forone"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/fortwo"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/forthe"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow android:background="#EEEEEE">
+        <TextView
+            android:text="Rejected"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/fivone"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/fivtwo"
+            android:gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:text="1"
+            android:id="@+id/fivthe"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".NotificationFragment">
+
+    <ListView
+        android:id="@+id/notificationlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2.0sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nonotification"
+        android:visibility="gone"
+        android:text="No Notification"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+</FrameLayout>

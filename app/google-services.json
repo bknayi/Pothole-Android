@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "571170367083",
+    "firebase_url": "https://pothole-cda3c.firebaseio.com",
+    "project_id": "pothole-cda3c",
+    "storage_bucket": "pothole-cda3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571170367083:android:5f730d4b54f670b3",
+        "android_client_info": {
+          "package_name": "com.potholedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571170367083-bctk82fv6vr75gn54me355qp0lo6flu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2CdLGYm6xfebF5rUFO_U77x6enPY6ZKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
